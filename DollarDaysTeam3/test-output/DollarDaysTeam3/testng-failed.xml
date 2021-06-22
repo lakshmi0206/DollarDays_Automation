@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DollarDaysTeam3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.DollarDaysTeam3.TestCases.TC_LoginTest_002">
+        <methods>
+          <include name="ValidateEmailID"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.DollarDaysTeam3.TestCases.TC_LoginTest_002 -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [DollarDaysTeam3] -->

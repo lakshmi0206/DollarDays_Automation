@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DollarDaysTeam3">
+<test name= "Login Test">
+<parameter name= "browser" value="chrome" />
+<classes>
+<class name="com.DollarDaysTeam3.TestCases.TC_LoginTest_006"/>
+
+</classes>
+</test>
+</suite>
